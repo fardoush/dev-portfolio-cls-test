@@ -2,6 +2,9 @@
     margin: 0;
     font-family: 'Open Sans' , sans-serif;
 }
+a{
+    text-decoration: none;
+}
 .text-primary{
     color: #FD6E0A;
  
@@ -157,6 +160,7 @@ color: #474747;
 
 .what-i-do-section{
     margin-top: 130px;
+  
 
 }
 .skills-container{
@@ -185,3 +189,80 @@ line-height: 28px;
 color: #757575;
 /* text-align: justify; */
 }
+
+
+/* Resume Style  */
+
+.resume-content{
+    display: flex;
+    gap:24px;
+}
+.resume-item .title{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #757575;
+    margin-bottom: 10px;
+}
+
+.resume-item .sub-title{
+    font-weight: 600;
+font-size: 20px;
+line-height: 27px;
+color: #757575;
+
+}
+
+
+.resume-item .description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575; 
+    margin-top: 20px;
+    /* margin-bottom: 30px; */
+}
+
+
+.resume-item {
+    margin :30px 0;
+}
+
+.resume-section .button-holder{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 113px;
+  
+}
+
+
+/* contact  */
+.contact{
+    display: flex;
+    gap:100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+
+}
+.contact .section-title{
+    text-align: left;
+}
+
+.contact input[type="text"],input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: none;
+    width: 100%;
+    background: #FFFFFF;
+    padding: 18px 30px;
+}
+
+input{
+    
+    height:64px;
+    
+}
+.social-icon{
+    margin-top: 30px;
+}
+/* footer  */
+
